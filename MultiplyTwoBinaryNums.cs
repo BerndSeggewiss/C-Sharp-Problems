@@ -25,8 +25,7 @@ namespace MultiplyBinaryNums
                 Console.WriteLine("multiplier " + Convert.ToString(multiplier, 2));
                 if ((multiplier & 1) != 0)
                 {
-                    result += multiplicand;
-                    
+                    result += multiplicand;           
                 }
                 multiplicand <<= 1;
                 multiplier >>= 1;
